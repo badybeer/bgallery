@@ -1,0 +1,192 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: auto;
+  width: auto;
+}
+
+.bgimage {
+  width: 100%;
+  height: 338px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../img/salat.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  transition: .5s;
+  z-index: -1;
+  filter: blur(3px);
+}
+
+/* .demo:nth-of-type(1):hover ~ .bgimage{
+  background: url('../img/salat.jpg');
+}
+.demo:nth-of-type(2):hover ~ .bgimage{
+  background: url('../img/alfa.jpeg');
+}
+.demo:nth-of-type(3):hover ~ .bgimage{
+  background: url('../img/barak.jpg');
+}
+.demo:nth-of-type(4):hover ~ .bgimage{
+  background: url('../img/krajina.jpeg');
+}
+.demo:nth-of-type(5):hover ~ .bgimage{
+  background: url('../img/zena.jpg');
+} */
+
+.container {
+  margin-top: -400px;
+  z-index: 1;
+}
+
+.gallery-block {
+  padding-bottom: 60px;
+  padding-top: 60px;
+  margin-top: 400px;
+}
+
+.gallery-block .heading {
+  margin-bottom: 50px;
+}
+
+.gallery-block .heading h2 {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 30.98px;
+  text-transform: uppercase;
+  margin-bottom: 43px;
+  z-index: 5;
+}
+
+.gallery-block .heading h5 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30.98px;
+  text-transform: uppercase;
+  /* margin-bottom: 49px; */
+}
+
+.gallery-block .heading .line {
+  width: 100%;
+  height: 2px;
+  background-color: #eeeeee;
+  opacity: 0.2;
+}
+
+.gallery-block.cards-gallery h6 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #555555;
+  text-transform: uppercase;
+}
+
+.gallery-block.cards-gallery .card {
+  transition: 0.4s easy;
+}
+
+/* .gallery-block.cards-gallery .card:hover {
+  width: 100%;
+  height: 338px;
+  background: url('../img/salat.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+} */
+.gallery-block.cards-gallery .card img {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  height: 169px;
+  z-index: 1;
+  display: block;
+  position: static;
+}
+
+.gallery-block.cards-gallery .icon-block {
+  border: 3px solid;
+  border-color: blue;
+}
+
+.gallery-block.cards-gallery .card .plus {
+  background-color: #ffffff;
+}
+
+.gallery-block.cards-gallery .card img.icon {
+  box-shadow: none;
+  height: 40px;
+  margin-top: 71px;
+}
+
+.gallery-block.cards-gallery .card-icon {
+  background-color: #ffffff;
+  margin-bottom: 58px;
+}
+
+.gallery-block.cards-gallery h6.icon-text {
+  color: #aaaaaa;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30.98px;
+  text-transform: uppercase;
+}
+
+.gallery-block.cards-gallery .card-body {
+  text-align: center;
+  height: 68px;
+}
+
+.gallery-block.cards-gallery .card-body p {
+  font-size: 15px;
+}
+
+.gallery-block.cards-gallery a {
+  color: #212529;
+}
+
+.gallery-block.cards-gallery a:hover {
+  text-decoration: none;
+}
+
+.gallery-block.cards-gallery .card {
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-block.cards-gallery img.architect-img {
+  height: 149px;
+}
+
+.gallery-block.cards-gallery .architect {
+  height: 89px;
+}
+
+.lightbox:hover>.bgimage {
+  background-image: url("../img/alfa.jpeg");
+}
+
+footer p {
+  color: #aaaaaa;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30.98px;
+  letter-spacing: 0.7px;
+}
+
+@media (min-width:576px) {
+  .gallery-block .transform-on-hover:hover {
+    transform: translateY(-10px) scale(1.00);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15) !important;
+    transition: 0.5s;
+  }
+}
