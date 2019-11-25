@@ -10,7 +10,7 @@ body {
 
 .bgimage {
   width: 100%;
-  height: 338px;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -21,34 +21,29 @@ body {
   background-attachment: fixed;
   transition: .5s;
   z-index: -1;
-  filter: blur(3px);
+  filter: blur(2px);
 }
 
-/* .demo:nth-of-type(1):hover ~ .bgimage{
-  background: url('../img/salat.jpg');
+.back {
+    position: fixed;
+    top: 350px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: -1;
 }
-.demo:nth-of-type(2):hover ~ .bgimage{
-  background: url('../img/alfa.jpeg');
-}
-.demo:nth-of-type(3):hover ~ .bgimage{
-  background: url('../img/barak.jpg');
-}
-.demo:nth-of-type(4):hover ~ .bgimage{
-  background: url('../img/krajina.jpeg');
-}
-.demo:nth-of-type(5):hover ~ .bgimage{
-  background: url('../img/zena.jpg');
-} */
 
 .container {
   margin-top: -400px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .gallery-block {
   padding-bottom: 60px;
   padding-top: 60px;
   margin-top: 400px;
+  z-index: 2;
 }
 
 .gallery-block .heading {
@@ -71,7 +66,6 @@ body {
   font-weight: 500;
   line-height: 30.98px;
   text-transform: uppercase;
-  /* margin-bottom: 49px; */
 }
 
 .gallery-block .heading .line {
@@ -92,15 +86,6 @@ body {
   transition: 0.4s easy;
 }
 
-/* .gallery-block.cards-gallery .card:hover {
-  width: 100%;
-  height: 338px;
-  background: url('../img/salat.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-} */
 .gallery-block.cards-gallery .card img {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
   background-repeat: no-repeat;
@@ -108,7 +93,7 @@ body {
   background-size: contain;
   background-attachment: fixed;
   height: 169px;
-  z-index: 1;
+  z-index: 2;
   display: block;
   position: static;
 }
