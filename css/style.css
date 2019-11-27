@@ -104,15 +104,15 @@ body {
   border-color: blue;
 }
 
-.gallery-block.cards-gallery .card .plus {
+/* .gallery-block.cards-gallery .card .plus {
   background-color: #ffffff;
-}
+} */
 
-.gallery-block.cards-gallery .card img.icon {
+/* .gallery-block.cards-gallery .card img.icon {
   box-shadow: none;
   height: 40px;
   margin-top: 71px;
-}
+} */
 
 .gallery-block.cards-gallery .card-icon {
   background-color: #ffffff;
@@ -155,13 +155,13 @@ body {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
 }
 
-.gallery-block.cards-gallery img.architect-img {
+/* .gallery-block.cards-gallery img.architect-img {
   height: 149px;
 }
 
 .gallery-block.cards-gallery .architect {
   height: 89px;
-}
+} */
 
 .lightbox:hover>.bgimage {
   background-image: url("../img/alfa.jpeg");
